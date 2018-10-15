@@ -15,11 +15,13 @@ namespace GameCollection
         public MainForm()
         {
             InitializeComponent();
-            sideSelectPanel.Height = buttonMobileGame.Height;
-            sideSelectPanel.Top = buttonHome.Top;
+            selectPanel.Height = buttonMobileGame.Height;
+            selectPanel.Top = buttonHome.Top;
+            selectPanel.BringToFront();
+            ubisoftGifLogo1.BringToFront();
+            selectPanel.BringToFront();
+
         }
-
-
 
         private void topPanel_Paint(object sender, PaintEventArgs e)
         {
@@ -34,33 +36,44 @@ namespace GameCollection
         // Button Clicks
         private void buttonHome_Click(object sender, EventArgs e)
         {
-            sideSelectPanel.Height = buttonHome.Height;
-            sideSelectPanel.Top = buttonHome.Top;
-
+            selectPanel.Height = buttonHome.Height;
+            selectPanel.Top = buttonHome.Top;
+            selectPanel.BringToFront();
+            ubisoftGifLogo1.BringToFront();
+            selectPanel.BringToFront();
         }
 
         private void buttonPC_Click(object sender, EventArgs e)
         {
-            sideSelectPanel.Height = buttonPCGame.Height;
-            sideSelectPanel.Top = buttonPCGame.Top;
+            selectPanel.Height = buttonPCGame.Height;
+            selectPanel.Top = buttonPCGame.Top;
+            selectPanel.BringToFront();
+            pcGameUC1.BringToFront();
+            selectPanel.BringToFront();
         }
 
         private void buttonMobile_Click(object sender, EventArgs e)
         {
-            sideSelectPanel.Height = buttonMobileGame.Height;
-            sideSelectPanel.Top = buttonMobileGame.Top;
+            selectPanel.Height = buttonMobileGame.Height;
+            selectPanel.Top = buttonMobileGame.Top;
         }
 
         private void buttonXBox_Click(object sender, EventArgs e)
         {
-            sideSelectPanel.Height = buttonXboxGame.Height;
-            sideSelectPanel.Top = buttonXboxGame.Top;
+            selectPanel.Height = buttonXboxGame.Height;
+            selectPanel.Top = buttonXboxGame.Top;
         }
 
         private void buttonPS4_Click(object sender, EventArgs e)
         {
-            sideSelectPanel.Height = buttonPS4Game.Height;
-            sideSelectPanel.Top = buttonPS4Game.Top;
+            selectPanel.Height = buttonPS4Game.Height;
+            selectPanel.Top = buttonPS4Game.Top;
         }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,17 +47,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="farCry.cs">
+    <Compile Include="assassinsCreedOdyssey.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="farCry.Designer.cs">
-      <DependentUpon>farCry.cs</DependentUpon>
+    <Compile Include="assassinsCreedOdyssey.Designer.cs">
+      <DependentUpon>assassinsCreedOdyssey.cs</DependentUpon>
+    </Compile>
+    <Compile Include="assassinsCreedOrigins.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="assassinsCreedOrigins.Designer.cs">
+      <DependentUpon>assassinsCreedOrigins.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forHonor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="forHonor.Designer.cs">
+      <DependentUpon>forHonor.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ghostRecon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ghostRecon.Designer.cs">
+      <DependentUpon>ghostRecon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PCGame.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PCGame.Designer.cs">
+      <DependentUpon>PCGame.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -66,11 +91,53 @@
     <Compile Include="Resources\.Designer.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <EmbeddedResource Include="farCry.resx">
-      <DependentUpon>farCry.cs</DependentUpon>
+    <Compile Include="Resources\farCry5.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Resources\farCry5.Designer.cs">
+      <DependentUpon>farCry5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="theCrew.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="theCrew.Designer.cs">
+      <DependentUpon>theCrew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="theDivision.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="theDivision.Designer.cs">
+      <DependentUpon>theDivision.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ubisoftGifLogo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ubisoftGifLogo.Designer.cs">
+      <DependentUpon>ubisoftGifLogo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="watchDog2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="watchDog2.Designer.cs">
+      <DependentUpon>watchDog2.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="assassinsCreedOdyssey.resx">
+      <DependentUpon>assassinsCreedOdyssey.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="assassinsCreedOrigins.resx">
+      <DependentUpon>assassinsCreedOrigins.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forHonor.resx">
+      <DependentUpon>forHonor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ghostRecon.resx">
+      <DependentUpon>ghostRecon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PCGame.resx">
+      <DependentUpon>PCGame.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -82,6 +149,21 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Resources\farCry5.resx">
+      <DependentUpon>farCry5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="theCrew.resx">
+      <DependentUpon>theCrew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="theDivision.resx">
+      <DependentUpon>theDivision.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ubisoftGifLogo.resx">
+      <DependentUpon>ubisoftGifLogo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="watchDog2.resx">
+      <DependentUpon>watchDog2.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -115,6 +197,54 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\far_cry.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsz_far_cry_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsz_1rsz_far_cry_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\far_cry_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsz_farcry5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nintendo-switch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsz_assassinscreedorigin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsz_assassins-creed-odyssey.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsz_2forhonor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsz_crew.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsz_ghost_recon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsz_1ghost_recon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsz_watchdog2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsz_thedivision.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ubisoft.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resized_logo.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

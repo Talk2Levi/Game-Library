@@ -4,7 +4,7 @@ A Desktop App that Allows Users to Find Games Based on Genres.
 ## Features 
 - [x] Integraded Animation For Home Page.
 - [x] Finding Games For Each Genres.
-- [ ] Adding Onto Each Page.
+- [ ] Adding Games Onto Each Page.
 - [x] Switching Between Different Category.
 - [x] Move Side Select Panel Along With Selected Category Page.
 - [x] Color Adjusted For MouseHover & MouseLeave

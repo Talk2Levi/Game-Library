@@ -121,20 +121,17 @@
   <data name="pc" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="rsz_1ghost_recon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rsz_1ghost_recon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="rsz_assassins-creed-odyssey" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\rsz_assassins-creed-odyssey.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ubisoft" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ubisoft.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="resized_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\resized_logo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="rsz_watchdog2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\rsz_watchdog2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="rsz_farcry5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rsz_farcry5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="rsz_crew" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rsz_crew.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="far_cry_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\far_cry_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,20 +148,23 @@
   <data name="background" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="rsz_assassinscreedorigin" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rsz_assassinscreedorigin.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="far_cry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\far_cry.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="rsz_thedivision" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\rsz_thedivision.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Ubisoft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ubisoft.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rsz_farcry5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rsz_farcry5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rsz_assassinscreedorigin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rsz_assassinscreedorigin.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="rsz_2forhonor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\rsz_2forhonor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="rsz_1ghost_recon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rsz_1ghost_recon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ubisoft-Logo-trsparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ubisoft-Logo-trsparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="home" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -175,8 +175,8 @@
   <data name="xbox" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\xbox.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="far_cry" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\far_cry.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="rsz_crew" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rsz_crew.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ps4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ps4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -184,7 +184,25 @@
   <data name="rsz_1rsz_far_cry_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\rsz_1rsz_far_cry_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="resized_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\resized_logo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Ubisoft-Logo-trsparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ubisoft-Logo-trsparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="computer-screen-black" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\computer-screen-black.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home-black" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home-black.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nintendo-switch-black" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nintendo-switch-black.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ps4-black" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ps4-black1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smartphone-call-black" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smartphone-call-black1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xbox-black" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xbox-black.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -246,5 +246,19 @@
   <ItemGroup>
     <None Include="Resources\resized_logo.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xbox-black.png" />
+    <None Include="Resources\smartphone-call-black1.png" />
+    <None Include="Resources\ps4-black1.png" />
+    <None Include="Resources\nintendo-switch-black.png" />
+    <None Include="Resources\home-black.png" />
+    <None Include="Resources\computer-screen-black.png" />
+    <Content Include="Resources\pc_black.png" />
+    <Content Include="Resources\home_black.png" />
+    <Content Include="Resources\nintendo_switch_black.png" />
+    <Content Include="Resources\ps4-black.png" />
+    <Content Include="Resources\smartphone-call-black.png" />
+    <Content Include="Resources\xbox_black.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -73,6 +73,16 @@ namespace GameCollection.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap computer_screen_black {
+            get {
+                object obj = ResourceManager.GetObject("computer-screen-black", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap far_cry {
             get {
                 object obj = ResourceManager.GetObject("far_cry", resourceCulture);
@@ -103,9 +113,29 @@ namespace GameCollection.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap home_black {
+            get {
+                object obj = ResourceManager.GetObject("home-black", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap nintendo_switch {
             get {
                 object obj = ResourceManager.GetObject("nintendo-switch", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap nintendo_switch_black {
+            get {
+                object obj = ResourceManager.GetObject("nintendo-switch-black", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -126,6 +156,16 @@ namespace GameCollection.Properties {
         internal static System.Drawing.Bitmap ps4 {
             get {
                 object obj = ResourceManager.GetObject("ps4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ps4_black {
+            get {
+                object obj = ResourceManager.GetObject("ps4-black", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -263,6 +303,16 @@ namespace GameCollection.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap smartphone_call_black {
+            get {
+                object obj = ResourceManager.GetObject("smartphone-call-black", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Ubisoft {
             get {
                 object obj = ResourceManager.GetObject("Ubisoft", resourceCulture);
@@ -286,6 +336,16 @@ namespace GameCollection.Properties {
         internal static System.Drawing.Bitmap xbox {
             get {
                 object obj = ResourceManager.GetObject("xbox", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap xbox_black {
+            get {
+                object obj = ResourceManager.GetObject("xbox-black", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

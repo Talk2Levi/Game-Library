@@ -47,7 +47,7 @@
             // 
             // sidePanel
             // 
-            this.sidePanel.BackColor = System.Drawing.Color.Transparent;
+            this.sidePanel.BackColor = System.Drawing.Color.Black;
             this.sidePanel.Controls.Add(this.buttonSwitchGame);
             this.sidePanel.Controls.Add(this.selectPanel);
             this.sidePanel.Controls.Add(this.buttonPS4Game);
@@ -67,8 +67,6 @@
             // 
             this.buttonSwitchGame.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.buttonSwitchGame.FlatAppearance.BorderSize = 0;
-            this.buttonSwitchGame.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
-            this.buttonSwitchGame.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.buttonSwitchGame.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonSwitchGame.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonSwitchGame.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -80,10 +78,12 @@
             this.buttonSwitchGame.TabIndex = 6;
             this.buttonSwitchGame.Text = "     Switch Game";
             this.buttonSwitchGame.UseVisualStyleBackColor = true;
+            this.buttonSwitchGame.MouseLeave += new System.EventHandler(this.buttonSwitchGame_MouseLeave);
+            this.buttonSwitchGame.MouseHover += new System.EventHandler(this.buttonSwitchGame_MouseHover);
             // 
             // selectPanel
             // 
-            this.selectPanel.BackColor = System.Drawing.Color.Gray;
+            this.selectPanel.BackColor = System.Drawing.Color.White;
             this.selectPanel.Location = new System.Drawing.Point(0, 48);
             this.selectPanel.Name = "selectPanel";
             this.selectPanel.Size = new System.Drawing.Size(18, 72);
@@ -93,8 +93,6 @@
             // 
             this.buttonPS4Game.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.buttonPS4Game.FlatAppearance.BorderSize = 0;
-            this.buttonPS4Game.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
-            this.buttonPS4Game.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.buttonPS4Game.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonPS4Game.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonPS4Game.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -107,13 +105,13 @@
             this.buttonPS4Game.Text = "  PS4 Game";
             this.buttonPS4Game.UseVisualStyleBackColor = true;
             this.buttonPS4Game.Click += new System.EventHandler(this.buttonPS4_Click);
+            this.buttonPS4Game.MouseLeave += new System.EventHandler(this.buttonPS4Game_MouseLeave);
+            this.buttonPS4Game.MouseHover += new System.EventHandler(this.buttonPS4Game_MouseHover);
             // 
             // buttonXboxGame
             // 
             this.buttonXboxGame.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.buttonXboxGame.FlatAppearance.BorderSize = 0;
-            this.buttonXboxGame.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
-            this.buttonXboxGame.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.buttonXboxGame.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonXboxGame.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonXboxGame.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -126,6 +124,8 @@
             this.buttonXboxGame.Text = "   Xbox Game";
             this.buttonXboxGame.UseVisualStyleBackColor = true;
             this.buttonXboxGame.Click += new System.EventHandler(this.buttonXBox_Click);
+            this.buttonXboxGame.MouseLeave += new System.EventHandler(this.buttonXboxGame_MouseLeave);
+            this.buttonXboxGame.MouseHover += new System.EventHandler(this.buttonXboxGame_MouseHover);
             // 
             // buttonHome
             // 
@@ -133,12 +133,10 @@
             this.buttonHome.Cursor = System.Windows.Forms.Cursors.Default;
             this.buttonHome.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.buttonHome.FlatAppearance.BorderSize = 0;
-            this.buttonHome.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
-            this.buttonHome.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.buttonHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonHome.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonHome.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttonHome.Image = global::GameCollection.Properties.Resources.home;
+            this.buttonHome.ForeColor = System.Drawing.Color.White;
+            this.buttonHome.Image = ((System.Drawing.Image)(resources.GetObject("buttonHome.Image")));
             this.buttonHome.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.buttonHome.Location = new System.Drawing.Point(24, 48);
             this.buttonHome.Name = "buttonHome";
@@ -148,13 +146,13 @@
             this.buttonHome.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.buttonHome.UseVisualStyleBackColor = false;
             this.buttonHome.Click += new System.EventHandler(this.buttonHome_Click);
+            this.buttonHome.MouseLeave += new System.EventHandler(this.buttonHome_MouseLeave);
+            this.buttonHome.MouseHover += new System.EventHandler(this.buttonHome_MouseHover);
             // 
             // buttonMobileGame
             // 
             this.buttonMobileGame.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.buttonMobileGame.FlatAppearance.BorderSize = 0;
-            this.buttonMobileGame.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
-            this.buttonMobileGame.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.buttonMobileGame.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonMobileGame.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonMobileGame.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -167,6 +165,8 @@
             this.buttonMobileGame.Text = "     Mobile Game";
             this.buttonMobileGame.UseVisualStyleBackColor = true;
             this.buttonMobileGame.Click += new System.EventHandler(this.buttonMobile_Click);
+            this.buttonMobileGame.MouseLeave += new System.EventHandler(this.buttonMobileGame_MouseLeave);
+            this.buttonMobileGame.MouseHover += new System.EventHandler(this.buttonMobileGame_MouseHover);
             // 
             // UbisoftLogo
             // 
@@ -182,8 +182,6 @@
             // 
             this.buttonPCGame.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.buttonPCGame.FlatAppearance.BorderSize = 0;
-            this.buttonPCGame.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
-            this.buttonPCGame.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.buttonPCGame.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonPCGame.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonPCGame.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -196,6 +194,8 @@
             this.buttonPCGame.Text = "PC Game";
             this.buttonPCGame.UseVisualStyleBackColor = true;
             this.buttonPCGame.Click += new System.EventHandler(this.buttonPC_Click);
+            this.buttonPCGame.MouseLeave += new System.EventHandler(this.buttonPCGame_MouseLeave);
+            this.buttonPCGame.MouseHover += new System.EventHandler(this.buttonPCGame_MouseHover);
             // 
             // ubisoftGifLogo1
             // 
@@ -206,17 +206,18 @@
             // 
             // pcGameUC1
             // 
-            this.pcGameUC1.BackColor = System.Drawing.Color.Black;
+            this.pcGameUC1.BackColor = System.Drawing.Color.Transparent;
             this.pcGameUC1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pcGameUC1.BackgroundImage")));
             this.pcGameUC1.Location = new System.Drawing.Point(252, 0);
             this.pcGameUC1.Name = "pcGameUC1";
             this.pcGameUC1.Size = new System.Drawing.Size(1080, 852);
             this.pcGameUC1.TabIndex = 2;
+            this.pcGameUC1.Load += new System.EventHandler(this.pcGameUC1_Load);
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.ClientSize = new System.Drawing.Size(1332, 852);
             this.Controls.Add(this.pcGameUC1);
             this.Controls.Add(this.sidePanel);

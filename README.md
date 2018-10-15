@@ -1,16 +1,14 @@
 # Game_Library_For_Ubisoft
 A Desktop App that Allows Users to Find Games Based on Genre of Devices.
 
-## Features 
+## Developing Features 
 - [x] Integraded Animation For Home Page.
 - [x] Finding Games For Each Genres.
-- [ ] Adding Games Onto Each Page.
+- [ ] Adding All Games Onto Each Page.
 - [x] Switching Between Different Category.
-- [x] Move Side Select Panel Along With Selected Category Page.
-- [x] Color Adjusted For MouseHover & MouseLeave
+- [x] Moving Selection Cursor Along With Selected Category Page.
+- [x] Adjusting Color For Side Panel When Mouse Hovered & Left.
 - [ ] Search Engine
-  - [ ] Building DB
-  - [ ] Retriving Process
  
 ## Home Page
 The Animation is Credited from [Ubisoft Rebrand](https://dribbble.com/shots/3581220-Ubisoft-Rebrand) Which Made By [Selim Cherif](https://dribbble.com/selimcherif).

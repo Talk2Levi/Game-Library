@@ -1,5 +1,5 @@
 # Game_Library_For_Ubisoft
-A Desktop App that Allows Users to Find Games Based on Genre of Devices.
+A Desktop App That Allows Users Finding Games Based on The Genre of Devices.
  
 ## Home Page
 The Animation is Credited from [Ubisoft Rebrand](https://dribbble.com/shots/3581220-Ubisoft-Rebrand) Which Made By [Selim Cherif](https://dribbble.com/selimcherif).

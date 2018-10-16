@@ -10,10 +10,10 @@ All the Game Info Are Credited From [Ubisoft Official Website](https://www.ubiso
 ![](https://github.com/LeviIsAwesome/Game_Library_For_Ubisoft/blob/master/image/pc_to_home.gif)
 
 ## Developing Features 
-- [x] Integraded Animation For Home Page.
-- [x] Finding Games For Each Genres.
-- [ ] Adding All Games Onto Each Page.
+- [x] Integraded Animation With Home Page.
+- [x] Finding Game Data For Each Genres.
+- [ ] Adding All Games Onto Their Pages.
 - [x] Switching Between Different Category.
 - [x] Moving Selection Cursor Along With Selected Category Page.
 - [x] Adjusting Color For Side Panel When Mouse Hovered & Left.
-- [ ] Search Engine
+- [ ] Searching Engine

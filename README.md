@@ -1,5 +1,5 @@
 # Game_Library_For_Ubisoft  (:construction: Work in Progress :construction:)
-A C# Desktop App That Allows Users Finding Ubisoft Games Based on The Genre of Devices. 
+A C# Desktop App That Allows Users Finding Ubisoft Games Based on Device Types. 
 
 ## Home Page
 The Animation is Credited from [Ubisoft Rebrand](https://dribbble.com/shots/3581220-Ubisoft-Rebrand) That Made By [Selim Cherif](https://dribbble.com/selimcherif).

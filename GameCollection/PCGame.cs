@@ -29,10 +29,9 @@ namespace GameCollection
             InitializeComponent();
         }
 
-        private void pcGameUC_Load(object sender, EventArgs e)
+        private void button1_Click_1(object sender, EventArgs e)
         {
-
-            this.BackColor = System.Drawing.Color.Transparent;
+            assassinsCreedOdyssey1.Show();
         }
     }
 }

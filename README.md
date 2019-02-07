@@ -1,4 +1,4 @@
-# Game_Library_For_Ubisoft  (:construction: Work in Progress :construction:)
+# Ubisoft-Game-Library  (:construction: Work in Progress :construction:)
 A C# Desktop App That Allows Users Finding Ubisoft Games Based on Device Types. 
 
 ## Home Page

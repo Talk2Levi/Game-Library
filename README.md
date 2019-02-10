@@ -1,6 +1,6 @@
 [![HitCount](http://hits.dwyl.io/LeviIsAwesome/https://github.com/LeviIsAwesome/Ubisoft-Game-Library.svg)](http://hits.dwyl.io/LeviIsAwesome/https://github.com/LeviIsAwesome/Ubisoft-Game-Library)
 # Game-Library  (:construction: Work in Progress :construction:)
-A C# Desktop App That Allows Users Finding Ubisoft Games Based on Device Types. 
+A C# desktop app that allows users finding Ubisoft games based on the device types. 
 
 ## Home Page
 The Animation Is Credited from [Ubisoft Rebrand](https://dribbble.com/shots/3581220-Ubisoft-Rebrand) That Made By [Selim Cherif](https://dribbble.com/selimcherif).

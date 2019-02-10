@@ -1,5 +1,5 @@
 [![HitCount](http://hits.dwyl.io/LeviIsAwesome/https://github.com/LeviIsAwesome/Ubisoft-Game-Library.svg)](http://hits.dwyl.io/LeviIsAwesome/https://github.com/LeviIsAwesome/Ubisoft-Game-Library)
-# Ubisoft-Game-Library  (:construction: Work in Progress :construction:)
+# Game-Library  (:construction: Work in Progress :construction:)
 A C# Desktop App That Allows Users Finding Ubisoft Games Based on Device Types. 
 
 ## Home Page
